@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in JavaScript related to loose equality (==). The `foo` function intends to compare two values for equality, but it fails in certain cases due to JavaScript's type coercion during loose equality comparisons.  The solution illustrates using strict equality (===) for accurate comparisons.
